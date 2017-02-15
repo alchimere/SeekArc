@@ -473,6 +473,10 @@ public class SeekArc extends View {
 	public int getProgress() {
 		return mProgress;
 	}
+	
+	public float getProgressSweepAngle() {
+		return mProgressSweep;
+	}
 
 	public int getProgressWidth() {
 		return mProgressWidth;
